@@ -2,17 +2,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "AmazonIVSBroadcast",
+    name: "AmazonIVSPlayer",
     products: [
         .library(
-            name: "AmazonIVSBroadcast",
-            targets: ["AmazonIVSBroadcast"]
+            name: "AmazonIVSPlayer",
+            targets: ["AmazonIVSPlayer"]
         )
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "AmazonIVSBroadcast",
+            name: "AmazonIVSPlayer",
             url:"https://player.live-video.net/1.27.0/AmazonIVSPlayer.xcframework.zip"
         )
     ]
