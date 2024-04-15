@@ -1,0 +1,2 @@
+# AmazonIVSPlayer
+add SPM Support
