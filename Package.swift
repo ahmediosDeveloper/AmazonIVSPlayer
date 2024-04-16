@@ -6,6 +6,7 @@ let package = Package(
     products: [
         .library(
             name: "AmazonIVSPlayer",
+            type: .dynamic,
             targets: ["AmazonIVSPlayer"]
         )
     ],
